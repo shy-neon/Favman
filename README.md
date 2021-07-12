@@ -13,7 +13,7 @@ In spite of being a command line tool, I tried to make the documentation clear a
 # Getting started
 Befor running the script make sure your terminal have full access to the disk.
 To do it, go to  *> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar* \
-⚠️ IMPORTANT: if "terminal" is not shown, momentarely skip this step, close System Preference and run the script at least once (it will fail) and check again for it
+⚠️ IMPORTANT: if "terminal" is not shown, momentarely skip this step, close System Preference, run the script at least once (it will fail) and check again for it
 
 <img width="780" alt="Screenshot 2021-07-12 at 00 36 27" src="https://user-images.githubusercontent.com/87037145/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png">
 
