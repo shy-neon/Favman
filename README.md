@@ -11,7 +11,7 @@ With Favtool you can easly costumize them by simply dropping your personal icons
 In spite of being a command line tool, I tried to make the documentation clear and the experiece as user-friendly as possible.
 
 # Getting started
-Befor running the script make sure your terminal have full access to the disk.
+Before running the script make sure your terminal have full access to the disk.
 To do it, go to  *> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar* \
 ⚠️ IMPORTANT: if "terminal" is not shown, momentarely skip this step, close System Preference, run the script at least once (it will fail) and check again for it
 
