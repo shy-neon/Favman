@@ -1,7 +1,7 @@
 chflags nouchg ~/Library/Safari/Touch\ Icons\ Cache/Images 
 
 echo "welcome in favtool by @shyne-on on reddit"
-echo "####### READ THE README FILE IN THE MAIN DIRECTORY BEFOR USING #######"
+echo "####### READ THE README FILE IN THE MAIN DIRECTORY BEFORE USING #######"
 echo "------ drag here one of your favourite sites from the safari home ------"
 read favsite
 domain=$(awk -F/ '{n=split($3, a, "/"); printf("%s %s", a[n-1], a[n])}' <<< $favsite)
