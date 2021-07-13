@@ -72,6 +72,8 @@ $ bash favtoolSTP.sh
 ```
 once you have finisced manually close Safari Technology preview with cmd+q and restart it
 
+-Nicola
+
 
 
 
