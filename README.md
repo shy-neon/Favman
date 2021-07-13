@@ -63,14 +63,14 @@ $ rm -f ~/Library/Safari/Touch\ Icons\ Cache/Images
 $ killall safari
 ```
 
-# if you are running Safary Technology preview
+# if you are running Safari Technology preview
 
 The procedure is the same but run the script by tiping (instead of bash Favtool.sh)
 
 ```console
 $ bash favtoolSTP.sh
 ```
-once you have finisced manually close Safary Technology preview with cmd+q and restart it
+once you have finisced manually close Safari Technology preview with cmd+q and restart it
 
 
 
