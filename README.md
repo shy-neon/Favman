@@ -22,6 +22,7 @@ Firstly, get the source.
 You can download the zip file by pressing the green "code" button above, or you can run git clone.
 Now right-click the Favtool folder you got, select "new terminal at folder" and a shell will appear.
 Here you can type this to run the script:
+(Note: don't paste the $ symbol in terminal)
 
 ```console
 $ bash favtool.sh
