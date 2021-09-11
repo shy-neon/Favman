@@ -36,7 +36,7 @@ To run the script control^-click on the main-folder and select
  <br/>
  <br/>
 
-# how to run
+### how to run
 
 Firstly, get the source.
  You can download the zip file by pressing the green "code" button above, or you can run git clone.
@@ -50,6 +50,7 @@ Firstly, get the source.
  Now you can drag and drop one of your favourite sites to which you want to replace the icon, from the home of Safari directly to your terminal and press return.
   
 <br/>
+
 # Features
 <br/>
 
