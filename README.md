@@ -12,11 +12,6 @@ In spite of being a command line tool, I tried to make the documentation clear a
  <br/>
  <br/>
  <br/>
- <br/>
- <br/>
- <br/>
- <br/>
-  
 
 # Getting started
 <br/>
