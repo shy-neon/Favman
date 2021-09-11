@@ -31,12 +31,25 @@ If you are reciving the "rm/cp: permission denied" error, double check this step
 </p>
 
  <br/>
+To run the script control^-click on the main-folder and select 
  <br/>
  <br/>
  <br/>
 
+# how to run
+
+Firstly, get the source.
+ You can download the zip file by pressing the green "code" button above, or you can run git clone.
+ Now right-click the Favtool folder you got, select "new terminal at folder" and a shell will appear.
+ Here you can type this to run the script:
+
+ ```console
+ $ bash FavTool_2.0.sh
+ ```
+ Congratulations, the script is runnig! 
+ Now you can drag and drop one of your favourite sites to which you want to replace the icon, from the home of Safari directly to your terminal and press return.
   
-
+<br/>
 # Features
 <br/>
 
