@@ -33,7 +33,7 @@ If you are reciving the "rm/cp: permission denied" error, double check this step
  <br/>
  <br/>
  <br/>
- <br/><img width="1392" alt="image" src="https://user-images.githubusercontent.com/87037145/132950328-b3ee91d4-e65a-4c4f-a27c-488b30a3cd4a.png">
+ <br/>
 
   
 
