@@ -10,13 +10,11 @@ In spite of being a command line tool, I tried to make the documentation clear a
 </p>
 
  <br/>
- <br/>
- <br/>
 
 # Getting started
 <br/>
 
-<img align="right" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="400">
+<img align="right" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="500">
 
 <p align="justify">
 Firstly, get the source.
@@ -25,12 +23,7 @@ Before running the script make sure your terminal have full access to the disk.
 To do it, go to:
 </p>
 
- <br/>
- <br/>
-
-<p align="right">
- *> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar* 
-</p>
+ */> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar/*
 
 <p align="justify">
 ⚠️ IMPORTANT: if "terminal" is not shown, momentarely skip this step, run the script once (it will fail) and check again for it.
@@ -40,12 +33,12 @@ If you are reciving the "rm/cp: permission denied" error, double check this step
  <br/>
  <br/>
  <br/>
+ <br/><img width="1392" alt="image" src="https://user-images.githubusercontent.com/87037145/132950328-b3ee91d4-e65a-4c4f-a27c-488b30a3cd4a.png">
+
   
 
 # Features
 <br/>
-
-<img align="right" src="images/Schermata%202021-09-11%20alle%2009.05.png" width="400">
 
 <p align="justify">
 Favtool has everyting you need to customize  or manage Safari's icons. You can choose one of the four functions by typing the corrispondent number (1 to 4) and press return. If you are running Safari Technology preview
