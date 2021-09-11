@@ -1,7 +1,7 @@
 # FavTool
 <br/>
 
-<img align="left" src="images/125211840-a4f80480-e2a9-11eb-8d8e-b6413305ec38.png" width="400">
+<img align="centre" src="images/125211840-a4f80480-e2a9-11eb-8d8e-b6413305ec38.png" width="800">
 
 <p align="justify">
 Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons.
