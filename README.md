@@ -14,7 +14,7 @@ In spite of being a command line tool, I tried to make the documentation clear a
 # Getting started
 
 
-<img align="left" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="600">
+<img align="left" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="500">
  <br/>
 <p align="justify">
 Firstly, get the source.
@@ -30,7 +30,6 @@ To do it, go to:
 If you are reciving the "rm/cp: permission denied" error, double check this step.
 </p>
 
- <br/>
  
 ### how to run
 
