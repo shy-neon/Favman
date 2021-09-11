@@ -12,10 +12,10 @@ In spite of being a command line tool, I tried to make the documentation clear a
  <br/>
 
 # Getting started
-<br/>
 
-<img align="right" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="500">
 
+<img align="left" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="600">
+ <br/>
 <p align="justify">
 Firstly, get the source.
 You can download the zip file by pressing the green "code" button above, or you can run git clone.
@@ -31,7 +31,8 @@ If you are reciving the "rm/cp: permission denied" error, double check this step
 </p>
 
  <br/>
-To run the script control^-click on the main-folder and select 
+ <br/>
+ <br/>
  <br/>
  <br/>
  <br/>
