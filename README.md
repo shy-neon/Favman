@@ -1,7 +1,7 @@
 # FavTool
 <br/>
 
-<img align="left" src="images/125211840-a4f80480-e2a9-11eb-8d8e-b6413305ec38.png" width="600">
+<img align="left" src="images/125211840-a4f80480-e2a9-11eb-8d8e-b6413305ec38.png" width="400">
 
 <p align="justify">
 Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons.
@@ -21,7 +21,7 @@ In spite of being a command line tool, I tried to make the documentation clear a
 # Getting started
 <br/>
 
-<img align="right" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="600">
+<img align="right" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="400">
 
 <p align="justify">
 Firstly, get the source.
@@ -50,7 +50,7 @@ If you are reciving the "rm/cp: permission denied" error, double check this step
 # Features
 <br/>
 
-<img align="right" src="images/Schermata%202021-09-11%20alle%2009.05.png" width="600">
+<img align="right" src="images/Schermata%202021-09-11%20alle%2009.05.png" width="400">
 
 <p align="justify">
 Favtool has everyting you need to customize  or manage Safari's icons. You can choose one of the four functions by typing the corrispondent number (1 to 4) and press return. If you are running Safari Technology preview
