@@ -31,9 +31,10 @@ Favtool has everyting you need to customize or manage Safari's icons. You can ch
 
 The first option allows you to change one of the icons of your favorite sites in Safari's Home. Once 1 is selecteded, drag and drop one of your favourite sites to which you want to replace the icon from the home of Safari directly to your terminal and press return. 
 
+![](images/Schermata%202021-09-11%20alle%2009.png)
+
 Then the script will ask you to drop the icon you have chosen, you can drop it in FavTool's window and press return (please take a look at the "icon rules" section below). Now by pressing any key, Safary will be restarted. If you want to manually close Safari later, press ctrl+c to stop FavTool. As soon as it will be reopened, the new icon will show up. Press any key to continue.![Schermata 2021-09-11 alle 09](/Users/nicoladigregorio/Desktop/Schermata 2021-09-11 alle 09.png)
 
-![](images/Schermata%202021-09-11%20alle%2009.png)
 
 ### 2 - Unlock image folder 
 
@@ -42,6 +43,7 @@ Once FavTool is run, it locks the folder located in  ~/Library/Safari/Touch\ Ico
 ### 3 - Restore default icons 
 
 This option allows you to delete any change you've done on icons. By running this, the whole Touch Icons Chache folder will be deleted, and recreated as soon as Safari is opened. Safary will reload all the icons from scratch. This option might fix missing icons.
+
 
 # Icon rules
 
@@ -55,6 +57,7 @@ Icons has to be .png files, about 144x144p (Safari seems to be quite flexible, h
 
 PS: you can even make them by yourself!
 Take a look at the Apple User Interface Guidelines https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/
+
 
 # If you are running Safari Technology preview
 
