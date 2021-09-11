@@ -40,7 +40,7 @@ Firstly, get the source.
  Here you can type this to run the script:
 
  ```console
- $ bash FavTool_2.sh
+ bash FavTool_2.sh
  ```
  Congratulations, the script is runnig! 
  Now you can drag and drop one of your favourite sites to which you want to replace the icon, from the home of Safari directly to your terminal and press return.
