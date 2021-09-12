@@ -1,7 +1,7 @@
 # FavTool
 <br/>
 
-<img src="images/Schermata%202021-09-12%20alle%2009.10.03.png" width="800">
+<img src="images/top.png" width="1100">
 
 <p align="justify">
 Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons. 
@@ -74,8 +74,8 @@ Once FavTool is run, it locks the folder located in  ~/Library/Safari/Touch\ Ico
 <p align="justify">
 This option allows you to delete any change you've done on icons. By running this, the whole Touch Icons Chache folder will be deleted, and recreated as soon as Safari is opened. Safary will reload all the icons from scratch. This option might fix missing icons
 </p>
-<img src="images/Schermata%202021-09-12%20alle%2010.00.25.png" width="1100">
 
+<img src="images/Schermata%202021-09-12%20alle%2009.10.03.png" width="800">
   
 
 # Icon rules
