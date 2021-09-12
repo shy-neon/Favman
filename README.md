@@ -1,16 +1,16 @@
 # FavTool
 <br/>
 
-<img align="centre" src="images/125211840-a4f80480-e2a9-11eb-8d8e-b6413305ec38.png" width="800">
+<img src="images/Schermata%202021-09-12%20alle%2009.10.03.png" width="800">
 
 <p align="justify">
-Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons.
+Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons. 
 With Favtool you can easly costumize them by simply dropping your personal icons in your terminal.
 In spite of being a command line tool, I tried to make the documentation clear and the experiece as user-friendly as possible.
 </p>
 
- <br/>
 
+ 
 # Getting started
 
 
