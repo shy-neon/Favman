@@ -50,6 +50,8 @@ Firstly, get the source.
 # Features
 <br/>
 
+<img align="right" src="images/Schermata%202021-09-12%20alle%2009.10.03.png" width="500">
+
 <p align="justify">
 Favtool has everyting you need to customize  or manage Safari's icons. You can choose one of the four functions by typing the corrispondent number (1 to 4) and press return. If you are running Safari Technology preview
 Open a terminal, write bash and drop the FavToolSTP.sh file inside the main folder, then follow the script instructions.
@@ -75,7 +77,7 @@ Once FavTool is run, it locks the folder located in  ~/Library/Safari/Touch\ Ico
 This option allows you to delete any change you've done on icons. By running this, the whole Touch Icons Chache folder will be deleted, and recreated as soon as Safari is opened. Safary will reload all the icons from scratch. This option might fix missing icons
 </p>
 
-<img src="images/Schermata%202021-09-12%20alle%2009.10.03.png" width="800">
+
   
 
 # Icon rules
