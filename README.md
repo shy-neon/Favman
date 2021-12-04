@@ -1,80 +1,61 @@
 # FavTool
 <br/>
-
-<img src="images/top.png" width="1100">
-
 <p align="justify">
 Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons. 
 With Favtool you can easly costumize them by simply dropping your personal icons in your terminal.
 In spite of being a command line tool, I tried to make the documentation clear and the experiece as user-friendly as possible.
 </p>
+<img src="images/favtool%20-2.gif" width="1100">
+
+
 
 
  
-# Getting started
+# Grant Full Disk Access
 
 
-<img align="left" src="images/125211796-3c108c80-e2a9-11eb-940d-5cbe67cf1b85.png" width="500">
- <br/>
+
+
 <p align="justify">
-Firstly, get the source.
-You can download the zip file by pressing the green "code" button above, or you can run git clone.
-Before running the script make sure your terminal have full access to the disk.
-To do it, go to:
+The first time you try to change an icon, an allert will be shown. Press "go to settings", and grant full disk acces to FavTool. Thi is mandator for For FavTool to work.
+
+<img align="left" src="images/Screenshot%202021-12-04%20at%2015.25.44.png" width="500">
 </p>
 
  */> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar/*
 
-<p align="justify">
-⚠️ IMPORTANT: if "terminal" is not shown, momentarely skip this step, run the script once (it will fail) and check again for it.
-If you are reciving the "rm/cp: permission denied" error, double check this step.
-</p>
-
-<br/>
-
 ### how to run
 
-Firstly, get the source.
- You can download the zip file by pressing the green "code" button above, or you can run git clone.
- Now right-click the Favtool folder you got, select "new terminal at folder" and a shell will appear.
- Here you can type this to run the script:
-
- ```console
- bash FavTool_2.sh
- ```
- Congratulations, the script is runnig! 
- Now you can drag and drop one of your favourite sites to which you want to replace the icon, from the home of Safari directly to your terminal and press return.
+⚠️ Whenever FavTool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool crtl-click the app and select "open". 
   
 <br/>
+</p>
+</p>
+
 
 # Features
 <br/>
 
-<img align="right" src="images/Schermata%202021-09-12%20alle%2009.10.03.png" width="500">
+<img align="right" src="images/Screenshot%202021-12-05%20at%2000.12.15.png" width="400">
 
+
+### Change an icon 
 <p align="justify">
-Favtool has everyting you need to customize  or manage Safari's icons. You can choose one of the four functions by typing the corrispondent number (1 to 4) and press return. If you are running Safari Technology preview
-Open a terminal, write bash and drop the FavToolSTP.sh file inside the main folder, then follow the script instructions.
+To change an icon drag and drop one of your favourite sites to which you want to replace the icon, from the home of Safari. 
+
+Then, you can drop the icon you have chosen (please take a look at the "icon rules" section below). Now by pressing the orange "Customize" button, the icon will be cahged. If you want to manually close Safari later, press ctrl+c to stop FavTool. As soon as it will be reopened, the new icon will show up. Press any key to continue.![Schermata 2021-09-11 alle 09](/Users/nicoladigregorio/Desktop/Schermata 2021-09-11 alle 09.png)
 </p>
 
+### Unlock image folder 
 
-### 1- Change an icon 
 <p align="justify">
-The first option allows you to change one of the icons of your favorite sites in Safari's Home. Once 1 is selecteded, drag and drop one of your favourite sites to which you want to replace the icon from the home of Safari directly to your terminal and press return. 
-
-Then the script will ask you to drop the icon you have chosen, you can drop it in FavTool's window and press return (please take a look at the "icon rules" section below). Now by pressing any key, Safary will be restarted. If you want to manually close Safari later, press ctrl+c to stop FavTool. As soon as it will be reopened, the new icon will show up. Press any key to continue.![Schermata 2021-09-11 alle 09](/Users/nicoladigregorio/Desktop/Schermata 2021-09-11 alle 09.png)
+Once FavTool is run, it locks the folder located in _ ~/Library/Safari/Touch\ Icons\ Cache/Images_. This prevents Safari from automatically restore the default icons. If you want to unlock this folder click on "Action" (situated in the menu bar) and then "Unlock Images Folder" or use the ⌥⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlock, otherwise this may lead to issues.
 </p>
 
-### 2 - Unlock image folder 
+### Restore default icons 
 
 <p align="justify">
-Once FavTool is run, it locks the folder located in  ~/Library/Safari/Touch\ Icons\ Cache/Images. This prevents Safari from automatically restore the default icons. Choose this option if you want to unlock this folder. However, make sure to keep Safari closed as long as the folder is unlock, otherwise this may lead to issues.
-</p>
-
-### 3 - Restore default icons 
-
-<p align="justify">
-This option allows you to delete any change you've done on icons. By running this, the whole Touch Icons Chache folder will be deleted, and recreated as soon as Safari is opened. Safary will reload all the icons from scratch. This option might fix missing icons
+This option allows you to delete any change you've done on icons. To do this, go to _Actions> Dismiss changes_ or use the ⌥⌘D . The whole Touch Icons Chache folder will be deleted, and recreated as soon as Safari is opened. Safary will reload all the icons from scratch. This option might fix missing icons
 </p>
 
 
