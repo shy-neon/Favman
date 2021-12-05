@@ -5,22 +5,23 @@ Sometimes, the homescreen of Safari looks ugly because of the inconsistent desig
 With Favtool you can easly costumize them by simply dropping your personal icons in your terminal.
 In spite of being a command line tool, I tried to make the documentation clear and the experiece as user-friendly as possible.
 </p>
+<br/>
+
 <img src="images/favtool%20-2.gif" width="1100">
 
 
 
 
  
-# Grant Full Disk Access
+# Getting Started 
+<br/>
 
-
-
+<img align="left" src="images/Screenshot%202021-12-04%20at%2015.25.44.png" width="480">
+</p>
 
 <p align="justify">
 The first time you try to change an icon, an allert will be shown. Press "go to settings", and grant full disk acces to FavTool. Thi is mandator for For FavTool to work.
 
-<img align="left" src="images/Screenshot%202021-12-04%20at%2015.25.44.png" width="500">
-</p>
 
  */> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar/*
 
@@ -29,14 +30,15 @@ The first time you try to change an icon, an allert will be shown. Press "go to 
 ⚠️ Whenever FavTool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool crtl-click the app and select "open". 
   
 <br/>
-</p>
-</p>
+<br/>
+ <br/>
+ <br/>
 
 
 # Features
 <br/>
 
-<img align="right" src="images/Screenshot%202021-12-05%20at%2000.12.15.png" width="400">
+<img align="right" src="images/Screenshot%202021-12-05%20at%2000.12.15.png" width="480">
 
 
 ### Change an icon 
