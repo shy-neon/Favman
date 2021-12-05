@@ -20,12 +20,11 @@ In spite of being a command line tool, I tried to make the documentation clear a
 </p>
 
 <p align="justify">
-The first time you try to change an icon, an allert will be shown. Press "go to settings", and grant full disk acces to FavTool. Thi is mandator for For FavTool to work.
-
-
- */> System Preferences> Security and privacy> Privacy> Full disk access > check the terminal bar/*
+The first time you try to change an icon, an allert will be shown. Press "go to settings", and grant full disk acces to FavTool. This is mandatory for For FavTool to work.
 
 ### how to run
+
+Get the source and double clik on the .dmg file. Here you will find the application itself. 
 
 ⚠️ Whenever FavTool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool crtl-click the app and select "open". 
   
