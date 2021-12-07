@@ -69,7 +69,7 @@ You can download icons for free in many sites, these are the one I often use:
 * https://macosicons.com, here you can find many styles but more app/programm-oriented;
 * https://www.macosicongallery.com, Here you can find original Mac icons.
 
-Icons has to be .png files, about 144x144p (Safari seems to be quite flexible, however, make sure to not overshoot 256x256p) and most importantly the **ICONS NAME CANNOT CONTAIN SPACES OR ANY OTHER SPECIAL CHARACTER**, they can be transparent.
+Icons has to be .png files, about 144x144p (Safari seems to be quite flexible, however, make sure to not overshoot 256x256p), they can be transparent.
 
 PS: you can even make them by yourself!
 Take a look at the Apple User Interface Guidelines https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/ 
