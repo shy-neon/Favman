@@ -2,8 +2,7 @@
 <br/>
 <p align="justify">
 Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons. 
-With Favtool you can easly costumize them by simply dropping your personal icons in your terminal.
-In spite of being a command line tool, I tried to make the documentation clear and the experiece as user-friendly as possible.
+With Favtool you can easly costumize them by simply dropping your personal icons.
 </p>
 <br/>
 
