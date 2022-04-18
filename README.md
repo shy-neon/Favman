@@ -28,7 +28,7 @@ Get the source and double clik on the .dmg file. Here you will find the applicat
 ⚠️ Whenever FavTool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool crtl-click the app and select "open". 
   
 <br/>
-<br/>
+<br/> 
  <br/>
  <br/>
 
