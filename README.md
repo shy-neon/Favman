@@ -19,7 +19,7 @@ With Favtool you can easly costumize them by simply dropping your personal icons
 </p>
 
 <p align="justify">
-The first time you try to change an icon, an allert will be shown. Press "go to settings", and grant full disk acces to FavTool. This is mandatory for For FavTool to work.
+The First time Favtool is opened, a window will pop up, select "Authorize". This will allow favtool to read/write the foldeder in which the icons are located. If the message "operation not permitted" is prompted, maybe favtool could not access the images folder. Go to Advanced > Allow Image folder access (or use the keyboard shortcut alt+cmd+a), then select "Authorize".
 
 ### how to run
 
