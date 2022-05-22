@@ -1,77 +1,54 @@
 # FavTool
-<br/>
-<p align="justify">
-Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons. 
+
+Sometimes, the homescreen of Safari looks ugly because of the inconsistent design of the favourite icons.
 With Favtool you can easly costumize them by simply dropping your personal icons.
-</p>
-<br/>
 
-<img src="images/favtool%20-2.gif" width="1100">
+<p align="center"><img alt="favtool" src="images/favtool.gif"></p>
 
+## Getting Started
 
+<p align="center"><img alt="authorising" src="images/authorise.png"></p>
 
+The First time Favtool is opened, a window will pop up, select _"Authorize"_. This will allow favtool to read/write the folder in which the icons are located.
 
- 
-# Getting Started 
-<br/>
+<p align="center"><img alt="disk access" src="images/disk_access.png" height=400></p>
 
-<img align="left" src="images/Screenshot%202021-12-04%20at%2015.25.44.png" width="480">
-</p>
+If the message _"Operation not permitted"_ is shown, maybe favtool could not access the images folder. Go to _Advanced_ > _Allow Image folder access_ (or use the keyboard shortcut <kbd>alt</kbd><kbd>cmd</kbd><kbd>a</kbd>), then select _"Authorize"_.
 
-<p align="justify">
-The First time Favtool is opened, a window will pop up, select "Authorize". This will allow favtool to read/write the foldeder in which the icons are located. If the message "operation not permitted" is prompted, maybe favtool could not access the images folder. Go to Advanced > Allow Image folder access (or use the keyboard shortcut alt+cmd+a), then select "Authorize".
+## How to run
 
-### how to run
+Get the source and double clik on the `.dmg` file. Here you will find the application itself.
 
-Get the source and double clik on the .dmg file. Here you will find the application itself. 
-
-⚠️ Whenever FavTool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool crtl-click the app and select "open". 
-  
-<br/>
-<br/> 
- <br/>
- <br/>
-
+⚠️ Whenever FavTool is run for the first time, the message _**"Apple can’t check app for malicious software"**_ might be shown. In order to run favtool <kbd>ctrl</kbd><kbd>click</kbd> the app and select _"Open"_.
 
 # Features
-<br/>
 
-<img align="right" src="images/Screenshot%202021-12-05%20at%2000.12.15.png" width="480">
+### Change an icon
 
+To change an icon, drag and drop one of your favourites that you want to replace the icon for from the Safari home page:
 
-### Change an icon 
-<p align="justify">
-To change an icon drag and drop one of your favourite sites to which you want to replace the icon, from the home of Safari. 
+<p align="center"><img alt="main screen" src="images/main_screen.png" height=500></p>
 
-Then, you can drop the icon you have chosen (please take a look at the "icon rules" section below). Now by pressing the orange "Customize" button, the icon will be cahged. If you want to manually close Safari later, press ctrl+c to stop FavTool. As soon as it will be reopened, the new icon will show up. Press any key to continue.![Schermata 2021-09-11 alle 09](/Users/nicoladigregorio/Desktop/Schermata 2021-09-11 alle 09.png)
-</p>
+Then, you can drop the icon you have chosen (please take a look at the _"Icon rules"_ section below). Now by pressing the orange _"Customize"_ button, the icon will be changed. If you want to manually close Safari later, press <kbd>ctrl</kbd><kbd>c</kbd> to stop FavTool. As soon as Safari reopens, the new icon will show up.
 
-### Unlock image folder 
+### Unlock image folder
 
-<p align="justify">
-Once FavTool is run, it locks the folder located in _ ~/Library/Safari/Touch\ Icons\ Cache/Images_. This prevents Safari from automatically restore the default icons. If you want to unlock this folder click on "Action" (situated in the menu bar) and then "Unlock Images Folder" or use the ⌥⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlock, otherwise this may lead to issues.
-</p>
+Once FavTool is run, it locks the folder located in: `~/Library/Safari/Touch Icons Cache/Images`
 
-### Restore default icons 
+This prevents Safari from automatically restore the default icons. If you want to unlock this folder click on _"Action"_ in the menu bar and then _"Unlock Images Folder"_ (or use the <kbd>⌥</kbd><kbd>⌘</kbd><kbd>U</kbd> shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise this may lead to issues.
 
-<p align="justify">
-This option allows you to delete any change you've done on icons. To do this, go to _Actions> Dismiss changes_ or use the ⌥⌘D . The whole Touch Icons Chache folder will be deleted, and recreated as soon as Safari is opened. Safary will reload all the icons from scratch. This option might fix missing icons
-</p>
+### Restore default icons
 
-
-  
+This option allows you to delete any change you've done on icons. To do this, go to _Actions_ > _Dismiss changes_ or use the keyboard shortcut <kbd>⌥</kbd><kbd>⌘</kbd><kbd>D</kbd> . The whole `Touch Icons Cache` folder will be deleted, and recreated as soon as Safari is opened. Safari will reload all the icons from scratch. This option _might_ fix missing icons.
 
 # Icon rules
 
 You can download icons for free in many sites, these are the one I often use:
 
-* https://icons8.com, here you can find a very big library with many styles;
-* https://macosicons.com, here you can find many styles but more app/programm-oriented;
-* https://www.macosicongallery.com, Here you can find original Mac icons.
+- <https://icons8.com> - A very big library with many styles
+- <https://macosicons.com> - Many styles with more of an app /programme focus
+- <https://www.macosicongallery.com> - Original Mac icons
 
-Icons has to be .png files, about 144x144p (Safari seems to be quite flexible, however, make sure to not overshoot 256x256p), they can be transparent.
+Icons has to be `.png` files, about `144`x`144p` (Safari seems to be quite flexible, however, make sure to not overshoot `256`x`256p`), they can be transparent.
 
-PS: you can even make them by yourself!
-Take a look at the Apple User Interface Guidelines https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/ 
-
-
+You can even make them by yourself! Get started by taking a look at the [Apple User Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/).
