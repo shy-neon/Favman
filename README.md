@@ -11,7 +11,7 @@ With Favtool you can easly costumize them by simply dropping your personal icons
 
 The First time Favtool is opened, a window will pop up, select _"Authorize"_. This will allow favtool to read/write the folder in which the icons are located.
 
-<p align="center"><img alt="disk access" src="images/disk_access.png" height=400></p>
+
 
 If the message _"Operation not permitted"_ is shown, maybe favtool could not access the images folder. Go to _Advanced_ > _Allow Image folder access_ (or use the keyboard shortcut <kbd>alt</kbd><kbd>cmd</kbd><kbd>a</kbd>), then select _"Authorize"_.
 
