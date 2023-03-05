@@ -20,8 +20,6 @@ Morover, you have to grant acces to the image folder located in  `~/Library/Safa
 
 ### How to use
 
-![guide](https://github.com/shy-neon/favtool/blob/main/images/Screenshot%202023-03-05%20alle%2021.21.32.png|width=100)
-
 Congratulations! You are now ready to customize your Icons: select a site from the sidebar and drop an icon on the gray box. You can now customize another icon or restart Safari to apply changes.
 
 💡 Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up chech the  *[Manage site list](#Manage-site-list)* below this will make your life easier.
@@ -29,6 +27,8 @@ Congratulations! You are now ready to customize your Icons: select a site from t
 💡For suggestions about where to find custom icons or how to create icons check the section  [icon suggestion](#Icons-suggestions) below.
 
 ❓Before opening an issue or if you have further questions, check the FAQ section on wiki.
+
+<img src="https://github.com/shy-neon/favtool/blob/main/images/guide.png" width="474" height="382" />
 
 ### Lock/Unlock image folder
 
