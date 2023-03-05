@@ -6,7 +6,7 @@ Since macOS BigSur, apple gave users a certian degree of customisation on Safari
 
 You can contribute by clicking the "donate" button on the app 🙏🏻 
 
-![main](https://github.com/shy-neon/favtool/blob/main/images/main.gif))
+![main](https://github.com/shy-neon/favtool/blob/main/images/main.gif)
 
 
 
@@ -19,6 +19,8 @@ Get the source and double clik on the `.dmg` file. Here you will find the applic
 Morover, you have to grant acces to the image folder located in  `~/Library/Safari/Touch Icons Cache/Images`.  Select *"Grant Access"* under the Favtool logo and Authorize the access: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted, you can restart Favtool and enjoy
 
 ### How to use
+
+![main](https://github.com/shy-neon/favtool/blob/main/images/Screenshot%202023-03-05 alle%2021.21.32.png)
 
 Congratulations! You are now ready to customize your Icons: select a site from the sidebar and drop an icon on the gray box. You can now customize another icon or restart Safari to apply changes.
 
