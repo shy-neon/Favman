@@ -6,7 +6,7 @@ Since macOS BigSur, apple gave users a certian degree of customisation on Safari
 
 You can contribute by clicking the "donate" button on the app 🙏🏻 
 
-![main](/images/main.gif)
+![main](https://github.com/shy-neon/favtool/blob/main/images/main.gif))
 
 
 
