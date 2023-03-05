@@ -6,7 +6,7 @@ Since macOS BigSur, apple gave users a certian degree of customisation on Safari
 
 You can contribute by clicking the "donate" button on the app 🙏🏻 
 
-![ezgif.com-video-to-gif](/Users/nicoladigregorio/Downloads/ezgif.com-video-to-gif.gif)
+![main(/images/main.gif)
 
 
 
