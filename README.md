@@ -20,7 +20,7 @@ Morover, you have to grant acces to the image folder located in  `~/Library/Safa
 
 ### How to use
 
-![guide](https://github.com/shy-neon/favtool/blob/main/images/Screenshot%202023-03-05%20alle%2021.21.32.png| width=100)
+![guide](https://github.com/shy-neon/favtool/blob/main/images/Screenshot%202023-03-05%20alle%2021.21.32.png|width=100)
 
 Congratulations! You are now ready to customize your Icons: select a site from the sidebar and drop an icon on the gray box. You can now customize another icon or restart Safari to apply changes.
 
