@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "publicsuffix-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jameshurst/PublicSuffix-Swift.git",
+      "state" : {
+        "revision" : "bf536e25d347002b6c7a2af02d987f2de2a328ac",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
