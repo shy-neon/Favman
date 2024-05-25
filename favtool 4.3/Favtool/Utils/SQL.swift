@@ -15,7 +15,7 @@ let id = Expression<Int64>("id");
 let host = Expression<String>("host");
 let hosti = Expression<Int>("host");
 let transparency = Expression<Int>("transparency_analysis_result");
-let icon = Expression<String>("icon_is_in_cache");
+let iconPresent = Expression<String>("icon_is_in_cache");
 
 func tryConnection () throws ->  Connection {
     var dataBase : Connection!;
@@ -90,5 +90,16 @@ func transparencyString (value : Int) -> String {
             break
             
         
+    }
+}
+
+
+func setIconIsOnChache (site : Site) {
+    let row = cacheSettings.filter(host == site.host);
+    do{
+        try tryConnection().run(row.update(iconPresent <- "1"));
+        print("func setIconIsOnChache: cache updated");
+    } catch {
+        print("func setIconIsOnChache: \(error)");
     }
 }

@@ -15,9 +15,9 @@ struct EmptyCommands: Commands {
     var body: some Commands {
         
         CommandGroup(replacing: .saveItem) {
-            Button {ImageFolderIsLocked(true)} label: {Text("Lock Image Folder")}
+            Button {try! ImageFolderIsLocked(true)} label: {Text("Lock Image Folder")}
                 .keyboardShortcut("l")
-            Button {ImageFolderIsLocked(false)} label: {Text("Unlock Image Folder")}
+            Button {try! ImageFolderIsLocked(false)} label: {Text("Unlock Image Folder")}
                 .keyboardShortcut("u")
         }
         
@@ -38,7 +38,7 @@ struct EmptyCommands: Commands {
             }.keyboardShortcut(KeyEquivalent("b"), modifiers: [.command, .option])
             
             Button {
-                ImageFolderIsLocked(false)
+                try! ImageFolderIsLocked(false)
                 removeItems(path: touchIconFolder!)
                 restartSafari()
             } label: {

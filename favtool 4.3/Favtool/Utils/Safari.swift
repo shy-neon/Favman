@@ -32,6 +32,8 @@ func donate() {
     }
 }
 
+
+
 func go(target : String) -> Void{
     let url = URL(string: "https://www.paypal.com/paypalme/favtool?country.x=IT&locale.x=it_IT")!
     if NSWorkspace.shared.open(url) {

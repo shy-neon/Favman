@@ -49,6 +49,7 @@ struct DropView: View {
                 if let url = object {
                     ImageFolderIsLocked(false)
                     copyImage(url, for: site)
+                    setIconIsOnChache(site: site)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
                     }
                     icon = "checkmark.seal.fill"

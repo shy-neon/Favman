@@ -47,14 +47,16 @@ func copyImage (_ from : URL, for site : Site) {
     }
 }
 
-func ImageFolderIsLocked (_ state : Bool) {
+func ImageFolderIsLocked (_ state : Bool) -> String{
     do {
         try FileManager()
             .setAttributes([FileAttributeKey.immutable: state], ofItemAtPath: imageFolder!.path)
     } catch {
         print(error)
         NSSound.basso?.play()
+        return error.localizedDescription
     }
+    return "table not reday, make sure safari is opened on the homepage"
 }
 
 func createFolder (path: URL){

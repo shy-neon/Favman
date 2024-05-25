@@ -15,13 +15,29 @@ struct SideBarView: View {
     @State var frequence = 0;
     @State private var active = false
     @State var selection : Site?; //sito attualmente selezionato
-    
+    @State var refreshing = false;
+    @State var progress = 0.00;
+    @State var filemangererror = "Authorize access to the favourite folder"
+    @State var granted = 0;
     
     var body: some View {
         NavigationView{
             
             List{
-                if(sites.list.count != 0){
+                if(refreshing){
+                    VStack{
+                        
+                        Text("creating list")
+                            .multilineTextAlignment(.center)
+                            .lineLimit(nil)
+                            .foregroundColor(Color.gray)
+                            .frame(width: 140)
+                            .fixedSize(horizontal: false, vertical: true)
+                        ProgressView(value: progress);
+                    }.frame( width: 100, height: 350)
+                        .padding(.leading, 20)
+                }
+                else if(sites.list.count != 0 && !refreshing){
                     ForEach (sites.list) {item in
                         NavigationLink(destination:
                                         
@@ -39,7 +55,7 @@ struct SideBarView: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 70)
                             .foregroundColor(Color.gray)
-                        Text("In order to work, Favtool needs to access the folder containig your favourite's data")
+                        Text(filemangererror)
                             .multilineTextAlignment(.center)
                             .lineLimit(nil)
                             .padding(10)
@@ -48,12 +64,18 @@ struct SideBarView: View {
                             .fixedSize(horizontal: false, vertical: true)
                         Button {
                             showSavePanel(path: touchIconFolder!)
-                            ImageFolderIsLocked(false)
-                            removeItems(path: touchIconCacheSettings!)
+                            filemangererror = ImageFolderIsLocked(false)
                             restartSafari()
-                            
+                            refreshList()
+                       
+                            granted = 1;
                         } label: {
-                            Text("Grant Access")
+                            if(granted == 0){
+                                Text("Grant Access")
+                            } else {
+                                Text("try again")
+                            }
+                            
                         }
                     }
                     .frame( width: 100, height: 350)
@@ -116,7 +138,7 @@ struct SideBarView: View {
                 
             }.alert("All your custom icons will be set to Default. If you want to remove a specific site, consider using the trash tool", isPresented: $showingAlert) {
                 Button("OK", role: .destructive) {
-                    ImageFolderIsLocked(false)
+                    filemangererror = ImageFolderIsLocked(false)
                     removeItems(path: touchIconCacheSettings!)
                     restartSafari()
                     refreshList()
@@ -150,9 +172,19 @@ struct SideBarView: View {
     }
     
     func refreshList(){
-        DispatchQueue.main.asyncAfter(deadline: .now() + 4.0){sites = Sites()}
+        refreshing = true;
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3){sites = Sites(); progress = 0.3}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0){sites = Sites() ; progress = 0.4}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0){sites = Sites(); progress = 0.45}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 4.0){sites = Sites(); progress = 0.6}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6.0){sites = Sites(); progress = 0.7}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 7.0){sites = Sites(); progress = 1}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 8.0){sites = Sites(); refreshing = false}
         DispatchQueue.main.asyncAfter(deadline: .now() + 10.0){sites = Sites()}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 15.0){sites = Sites()}
         DispatchQueue.main.asyncAfter(deadline: .now() + 20.0){sites = Sites()}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 25.0){sites = Sites()}
+        DispatchQueue.main.asyncAfter(deadline: .now() + 30.0){sites = Sites()}
     }
     
 }
