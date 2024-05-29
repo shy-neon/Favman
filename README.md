@@ -6,8 +6,8 @@ Since macOS BigSur, Apple gave users a certian degree of customisation on Safari
 
 You can contribute by clicking the "donate" button on the app 🙏🏻 
 
-![main](https://github.com/shy-neon/favtool/blob/main/images/main.gif)
 
+[![Watch the video](https://img.youtube.com/vi/jLilfZ5qnkg/maxresdefault.jpg)](https://github.com/shy-neon/favtool/blob/main/images/video.mp4)
 
 
 ### Getting Started
