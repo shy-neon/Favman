@@ -28,13 +28,19 @@ Congratulations! You are now ready to customize your Icons: select a site from t
 
 💡For suggestions about where to find custom icons or how to create icons check the section  [icon suggestion](#Icons-suggestions) below.
 
-❓Before opening an issue or if you have further questions, check the FAQ section on wiki.
-
 <img src="https://github.com/shy-neon/favtool/blob/main/images/guide.png" width="474" height="382" />
 
 ### Lock/Unlock image folder
 
 The first tome FavTool is run, it locks the folder located in: `~/Library/Safari/Touch Icons Cache/Images`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise this may lead to issues.
+
+### Icon style
+
+Other than the icon itself you can choose the stile used by safari to render the icon itself. the choices are "Big, transparent", "Small, glass". "big glass"
+
+1. "Big, transparent" indicated for solid or gradient background icons
+2. "Small, glass" applyes for transparent background icons, if applied on a solid background image, a padding around the immagine will appear.
+3. "Big, glass" usually applyes for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari an therefor is in this list.
 
 ### Manage site list
 
