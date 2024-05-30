@@ -20,33 +20,40 @@ Get the source and double clik on the `.dmg` file. Here you will find the applic
 
 Moreover, you have to grant access to the image folder located in  `~/Library/Safari/Touch Icons Cache/Images`.  Select *"Grant Access"* under the Favtool logo and Authorize the access: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted, you can restart Favtool and enjoy.
 
-### How to use
+💡If you get the message "table not ready" close safari, and reopen it whit no tab open other than the "home page" ( topsites:// ), then click on "try again"
+
+## How to use
 
 Congratulations! You are now ready to customize your Icons: select a site from the sidebar and drop an icon in the gray box. You can now customize another icon or restart Safari to apply changes.
 
-💡 Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up chech the  *[Manage site list](#Manage-site-list)* below this will make your life easier.
+💡 *Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up chech the  *[Manage site list](#Manage-site-list)* below this will make your life easier. However, before doing it, close safari and reopen it whit no tab open other than the "home page" ( topsites:// )*
 
-💡For suggestions about where to find custom icons or how to create icons check the section  [icon suggestion](#Icons-suggestions) below.
+💡*For suggestions about where to find custom icons or how to create icons check the section  [icon suggestion](#Icons-suggestions) below.*
 
-<img src="https://github.com/shy-neon/favtool/blob/main/images/guide.png" width="474" height="382" />
+<img src="https://github.com/shy-neon/favtool/blob/main/images/guide.png" width="474"  />
 
 ### Lock/Unlock image folder
 
 The first tome FavTool is run, it locks the folder located in: `~/Library/Safari/Touch Icons Cache/Images`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise this may lead to issues.
 
-### Icon style
-
-Other than the icon itself you can choose the stile used by safari to render the icon itself. the choices are "Big, transparent", "Small, glass". "big glass"
-
-1. "Big, transparent" indicated for solid or gradient background icons
-2. "Small, glass" applyes for transparent background icons, if applied on a solid background image, a padding around the immagine will appear.
-3. "Big, glass" usually applyes for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari an therefor is in this list.
 
 ### Manage site list
 
 The site list might be very long and you might see sites twice or sites you don't even know. This is because Safari saves datas and touch icons even of sites you've visited once. To clean Safari's database and the list you can click on the round arrow above the sidebar. Wait a few seconds and restart Favtool. The list will clean the site list on the sidebar. 
 
 If you want to delete a single site, you can select it and click the "trash" button above.
+
+### Icon style
+
+Other than the icon itself you can choose the stile used by safari to render the icon itself. the choices are "Big, transparent", "Small, glass". "big glass"
+
+<img src="https://github.com/shy-neon/favtool/blob/main/images/styles.png" width="474"  />
+
+1. "Big, transparent" indicated for solid or gradient background icons
+2. "Small, glass" applyes for transparent background icons, if applied on a solid background image, a padding around the immagine will appear.
+3. "Big, glass" usually applyes for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari an therefor is in this list.
+
+Other stile are apparently used by safari, but strangely they seem to have no effect on the icon, the site using those stile will display the generic "select" prompt.
 
 ### Restore default icons
 
