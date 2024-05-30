@@ -12,30 +12,38 @@ You can contribute by clicking the "donate" button on the app 🙏🏻
 
 
 
-### Getting Started
+## Getting Started
 
-Get the source and double clik on the `.dmg` file. Here you will find the application itself.
+Get the source, and double clik on the `.dmg` file. Here you will find the application itself or the pre compiled (raccomanded) last release. Please, if a pre-release is available, download it only if you are committed to contribute, those are not stable and for beta testing only.
 
-⚠️ Whenever Favtool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool ctrl-click the app and select *"Open"*.
+### Apple can’t check app for malicious software
+Whenever Favtool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool ctrl-click the app and select *"Open"*.
 
-Moreover, you have to grant access to the image folder located in  `~/Library/Safari/Touch Icons Cache/Images`.  Select *"Grant Access"* under the Favtool logo and Authorize the access: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted, you can restart Favtool and enjoy.
+<img src="https://github.com/shy-neon/favtool/blob/main/images/alert.png" width="274"  />
+
+Of course Favtool does not contain any malicious software, this is just a very bad way for Apple to commit developer into buying a 99$/y developer subscription, no words.
+
+### File system permission
+
+Favtool needs to access the foldeer containing the icons and a database containg your favourite list. Therefore, during the first run Favtool will ask you to access the folder located in  `~/Library/Safari/Touch Icons Cache`. Select *"Grant Access"* a finder panel will show up, select "Authorize".: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted the list on the sidebar will be populated by your favourite sites.
 
 💡If you get the message "table not ready" close safari, and reopen it whit no tab open other than the "home page" ( topsites:// ), then click on "try again"
 
+⚠️ After the first icon is changed, favtool locks the folder located in: `~/Library/Safari/Touch Icons Cache`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise icons may be restored).
+
 ## How to use
 
-Congratulations! You are now ready to customize your Icons: select a site from the sidebar and drop an icon in the gray box. You can now customize another icon or restart Safari to apply changes.
+Congratulations! You are now ready to customize your Icons.
 
-💡 *Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up chech the  *[Manage site list](#Manage-site-list)* below this will make your life easier. However, before doing it, close safari and reopen it whit no tab open other than the "home page" ( topsites:// )*
+💡 *Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up chech the  *[Manage site list](#Manage-site-list)* below this will make your life easier. However, before doing it, close safari and reopen it with no tabs open other than the "home page" ( topsites:// )*
 
 💡*For suggestions about where to find custom icons or how to create icons check the section  [icon suggestion](#Icons-suggestions) below.*
 
 <img src="https://github.com/shy-neon/favtool/blob/main/images/guide.png" width="474"  />
 
-### Lock/Unlock image folder
+### Change icons
 
-The first tome FavTool is run, it locks the folder located in: `~/Library/Safari/Touch Icons Cache/Images`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise this may lead to issues.
-
+It is as simple as selecting the corrisponding site and dropping the icon you prefear. You can now customize another icon or restart Safari to apply changes. Icons have to be `.png` files, about `180`x`180`px (icons under this size may not work), they can be transparent.
 
 ### Manage site list
 
@@ -57,9 +65,9 @@ Other stile are apparently used by safari, but strangely they seem to have no ef
 
 ### Restore default icons
 
-This option allows you to delete any change you've done on icons. To do this, go to *Edit* > *Reset default icons* or use the keyboard shortcut ⌘⌥D . The whole `Touch Icons Cache` folder will be deleted, and recreated as soon as Safari is opened. Safari will reload all the icons from scratch. This option *might* fix missing icons.
+This option allows you to delete any change you've done on icons. To do this, go to *Edit* > *Reset default icons* or use the keyboard shortcut ⌘⌥D . The whole `Touch Icons Cache` folder will be deleted, and recreated as soon as Safari is opened. Safari will reload all the icons from scratch. This option *might* fix missing icons. The Touch Icons folder wil be automatically unlocked.
 
-### Icons suggestions
+### Where to find icons suggestions
 
 You can download icons for free in many sites, these are the one I often use:
 
