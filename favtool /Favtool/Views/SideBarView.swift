@@ -117,28 +117,14 @@ struct SideBarView: View {
                     }).buttonStyle(.borderedProminent)
                 }
                 
-
-                ToolbarItem(placement: .navigation) {
-                    Button(action:{
-                        if (selection != nil){
-                            removeSite(site: selection!)
-                            sites.list.removeAll{$0.id == sites.SiteWere(id: selection!.id).id}
-                            selection = sites.list[0]
-                        }
-                    }, label: {
-                        Image(systemName: "trash")})
-                }
-                
-                
-                
                 ToolbarItem(placement: .navigation) {
                     Button(action: openReadme, label: {
-                        Image(systemName: "info.circle")})
+                        Image(systemName: "book.and.wrench")})
                 }
                 
             }.alert("All your custom icons will be set to Default. If you want to remove a specific site, consider using the trash tool", isPresented: $showingAlert) {
                 Button("OK", role: .destructive) {
-                    filemangererror = ImageFolderIsLocked(false)
+                    filemangererror = touchFolderIsLocked(false)
                     removeItems(path: touchIconCacheSettings!)
                     restartSafari()
                     refreshList()

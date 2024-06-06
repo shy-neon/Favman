@@ -16,6 +16,7 @@ struct DropView: View {
     @State var text  = "Drop Here Your Icon";
     
     var index : Int;
+    @Binding var ischanged : Bool;
     
     var body: some View {
         ZStack {
@@ -47,15 +48,18 @@ struct DropView: View {
         if let provider = providers.first(where: { $0.canLoadObject(ofClass: URL.self) }) {
             let _ = provider.loadObject(ofClass: URL.self) { object, error in
                 if let url = object {
+                    touchFolderIsLocked(false);
                     ImageFolderIsLocked(false)
+                    ischanged = !ischanged;
                     copyImage(url, for: site)
                     setIconIsOnChache(site: site)
+                    ischanged = !ischanged;
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
                     }
                     icon = "checkmark.seal.fill"
                     color = Color(.systemGreen)
                     text = "Done, Apply Changes"
-                    ImageFolderIsLocked(true)
+                    touchFolderIsLocked(true);
                     print("Func dropAction: url \(url.lastPathComponent)")
                 }
             }
@@ -66,8 +70,4 @@ struct DropView: View {
     }
 }
 
-struct DropView_Previews: PreviewProvider {
-    static var previews: some View {
-        DropView(index: 3)
-    }
-}
+

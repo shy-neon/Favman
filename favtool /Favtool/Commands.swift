@@ -47,8 +47,27 @@ struct EmptyCommands: Commands {
             
         }
         
-        CommandGroup(replacing: .windowSize) {
-            EmptyView()
+        CommandGroup(replacing: .undoRedo) {
+            Button {
+                tecnologyPreview = 1;
+                library = FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask)
+                imagePath = "SafariTechnologyPreview/Touch Icons Cache/Images/"
+                touchIconPath = "SafariTechnologyPreview/Touch Icons Cache/"
+
+                dbPath =  "SafariTechnologyPreview/Touch Icons Cache/TouchIconCacheSettings.db"
+                readingList = "SafariTechnologyPreview/ReadingListArchives"
+                
+                
+                imageFolder = library.first?.appendingPathComponent(imagePath)
+                touchIconFolder = library.first?.appendingPathComponent(touchIconPath);
+                touchIconCacheSettings = library.first?.appendingPathComponent(dbPath)
+                readingListFolder = library.first?.appendingPathComponent(readingList)
+                safari = library.first?.appendingPathComponent("Safari")
+                
+                showSavePanel(path: touchIconFolder!)
+            } label: {
+                Text("Technology preview support")
+            }.keyboardShortcut(KeyEquivalent("D"), modifiers: [.command, .option])
         }
         CommandGroup(replacing: .windowArrangement) {
             EmptyView()

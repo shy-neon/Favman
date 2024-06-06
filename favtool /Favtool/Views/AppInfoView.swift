@@ -18,7 +18,7 @@ struct AppInfoView: View {
                 .padding(.vertical, 3)
                 .padding(.top, 3)
                 
-            Text("Version 4.2.3")
+            Text("Version 4.4")
                 .font(.headline)
                 .padding(.bottom, 3)
             Text("Designed, developed and distribuited by Shy Neon\n \n Reddit: u/Shyne-on")

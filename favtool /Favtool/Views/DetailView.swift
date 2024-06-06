@@ -10,24 +10,37 @@ import SwiftUI
 struct DetailView: View {
     @ObservedObject var sites : Sites
     @State private var selected = 1
+  
+       var id: Int = 0
+    
+    @State var change : Bool = false;
     
     var index : Int = 0;
     
+    
     var body: some View {
 
-        LazyVStack (alignment: .leading){
+        VStack (alignment: .leading){
             Text(" \(sites.SiteWere(id: index).domainName)")
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .padding(.bottom, 10)
             
             HStack{
-                self.sites.SiteWere(id: index).icon
+                AsyncImage(url: {change ? URL(string: "bog") : sites.SiteWere(id: index).iconPath}()) { image in
+                    image
+                        .resizable()
+                        .scaledToFit()
+                } placeholder: {
+                    Image("null")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                }
                     .clipShape(RoundedRectangle(cornerRadius: 25))
                     .frame(width: 100)
                     .shadow(radius: 7)
                     .padding(.bottom)
-                
+                    
                 
                 VStack(alignment: .leading){
                     Text("Icon Style:")
@@ -54,6 +67,9 @@ struct DetailView: View {
                 }
                 .padding(.leading, 50)
             }
+            
+
+
 //                VStack(){
 //
 //                    Picker(selection: $selected, label: Text("Icon Size:")) {
@@ -83,7 +99,7 @@ struct DetailView: View {
                 .foregroundColor(Color.gray)
                 .padding(.bottom, 6)
             
-            DropView(index: index)
+            DropView(index: index, ischanged: $change)
         }
         .padding(.horizontal, 30)
     }

@@ -9,18 +9,19 @@ import Foundation
 import AppKit
 
 //partial Paths
-let library = FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask)
-let imagePath = "Safari/Touch Icons Cache/Images/"
-let touchIconPath = "Safari/Touch Icons Cache/"
-let dbPath =  "Safari/Touch Icons Cache/TouchIconCacheSettings.db"
-let readingList = "Safari/ReadingListArchives"
+var library = FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask)
+var imagePath = "Safari/Touch Icons Cache/Images/"
+var touchIconPath = "Safari/Touch Icons Cache/"
+
+var dbPath =  "Safari/Touch Icons Cache/TouchIconCacheSettings.db"
+var readingList = "Safari/ReadingListArchives"
 
 //Paths
-let imageFolder = library.first?.appendingPathComponent(imagePath)
-let touchIconFolder = library.first?.appendingPathComponent(touchIconPath);
-let touchIconCacheSettings = library.first?.appendingPathComponent(dbPath)
-let readingListFolder = library.first?.appendingPathComponent(readingList)
-let safari = library.first?.appendingPathComponent("Safari")
+var imageFolder = library.first?.appendingPathComponent(imagePath)
+var touchIconFolder = library.first?.appendingPathComponent(touchIconPath);
+var touchIconCacheSettings = library.first?.appendingPathComponent(dbPath)
+var readingListFolder = library.first?.appendingPathComponent(readingList)
+var safari = library.first?.appendingPathComponent("Safari")
 
 func showSavePanel(path: URL) {
     let openPanel = NSOpenPanel()
@@ -47,10 +48,24 @@ func copyImage (_ from : URL, for site : Site) {
     }
 }
 
+
 func ImageFolderIsLocked (_ state : Bool) -> String{
     do {
         try FileManager()
             .setAttributes([FileAttributeKey.immutable: state], ofItemAtPath: imageFolder!.path)
+    } catch {
+        print(error)
+        NSSound.basso?.play()
+        return error.localizedDescription
+    }
+    return "table not reday, make sure safari is opened on the homepage"
+}
+
+
+func touchFolderIsLocked (_ state : Bool) -> String{
+    do {
+        try FileManager()
+            .setAttributes([FileAttributeKey.immutable: state], ofItemAtPath: touchIconFolder!.path)
     } catch {
         print(error)
         NSSound.basso?.play()

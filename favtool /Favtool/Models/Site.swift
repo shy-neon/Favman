@@ -10,7 +10,7 @@ import CryptoKit
 import SwiftUI
 import PublicSuffix
 
-var nullSite = Site(id: -1, host: "www.shy-neon.com", transparencyResult : 0, iconChanges: false)
+var nullSite = Site(id: -1, host: "www.shy-neon.com", transparencyResult : 0, iconPath: URL(string: "bog")!)
 
 struct Site : Identifiable, Hashable {
     
@@ -45,11 +45,8 @@ struct Site : Identifiable, Hashable {
         }
     }
     
-    var iconChanges : Bool
-    
-    var iconPath : URL {
-        imageFolder!.appendingPathComponent(self.md5 + ".png");
-    }
+ 
+    var iconPath : URL
     
     var icon : some View {
         AsyncImage(url: iconPath) { image in

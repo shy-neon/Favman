@@ -9,16 +9,18 @@ import Foundation
 import SwiftUI
 
 
-
 class Sites : ObservableObject {
 
-    @Published var list : [Site];
+    @Published var list : [Site] = [];
     
     
     init () {
+        
         do {
+            
             var index = numberOfSites() - 1;
             var ret = Array(repeating: nullSite, count: numberOfSites());
+           
             for row in try prepareTable() {
                 ret[index].host = try! row.get(host);
                 do{
@@ -31,12 +33,16 @@ class Sites : ObservableObject {
                 ret[index].id = index;
                 print(ret[index])
                 index -= 1;
+                for j in 0..<ret.count{
+                    ret[j].iconPath = imageFolder!.appendingPathComponent(ret[j].md5 + ".png");
+                }
             }
             self.list = ret.sorted { $0.domainName < $1.domainName };
         } catch {
             let ret = Array(repeating: nullSite, count: numberOfSites());
             self.list = ret;
         }
+        
     }
     
     func SiteWere(id : Int) -> Site{
@@ -47,7 +53,6 @@ class Sites : ObservableObject {
         }
         return nullSite
     }
-    
 
 }
 
