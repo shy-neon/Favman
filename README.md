@@ -25,9 +25,9 @@ Of course Favtool does not contain any malicious software, this is just a very b
 
 ### File system permission
 
-Favtool needs to access the foldeer containing the icons and a database containg your favourite list. Therefore, during the first run Favtool will ask you to access the folder located in  `~/Library/Safari/Touch Icons Cache`. Select *"Grant Access"* a finder panel will show up, select "Authorize".: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted the list on the sidebar will be populated by your favourite sites.
+Favtool needs to access the folder containing the icons and a database containg your favourite list. Therefore, during the first run Favtool will ask you to access the folder located in  `~/Library/Safari/Touch Icons Cache`. Select *"Grant Access"* a finder panel will show up, select "Authorize".: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted the list on the sidebar will be populated by your favourite sites.
 
-💡If you get the message "table not ready" close safari, and reopen it whit no tab open other than the "home page" ( topsites:// ), then click on "try again"
+💡If you get the message "table not ready" close safari, and reopen it with no tab open other than the "home page" ( topsites:// ), then click on "try again"
 
 ⚠️ After the first icon is changed, favtool locks the folder located in: `~/Library/Safari/Touch Icons Cache`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise icons may be restored).
 
@@ -35,7 +35,7 @@ Favtool needs to access the foldeer containing the icons and a database containg
 
 Congratulations! You are now ready to customize your Icons.
 
-💡 *Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up chech the  *[Manage site list](#Manage-site-list)* below this will make your life easier. However, before doing it, close safari and reopen it with no tabs open other than the "home page" ( topsites:// )*
+💡 *Your site list might contain many sites, even sites you don't have in your home page. Safari saves data even for sites you've visited once, to clean it up check the  *[Manage site list](#Manage-site-list)* below this will make your life easier. However, before doing it, close safari and reopen it with no tabs open other than the "home page" ( topsites:// )*
 
 💡*For suggestions about where to find custom icons or how to create icons check the section  [icon suggestion](#Icons-suggestions) below.*
 
@@ -43,7 +43,7 @@ Congratulations! You are now ready to customize your Icons.
 
 ### Change icons
 
-It is as simple as selecting the corrisponding site and dropping the icon you prefear. You can now customize another icon or restart Safari to apply changes. Icons have to be `.png` files, about `180`x`180`px (icons under this size may not work), they can be transparent.
+It is as simple as selecting the corresponding site and dropping the icon you prefer. You can now customize another icon or restart Safari to apply changes. Icons have to be `.png` files, about `180`x`180`px (icons under this size may not work), they can be transparent.
 
 ### Manage site list
 
@@ -53,23 +53,23 @@ If you want to delete a single site, you can select it and click the "trash" but
 
 ### Icon style
 
-Other than the icon itself you can choose the stile used by safari to render the icon itself. the choices are "Big, transparent", "Small, glass". "big glass"
+Other than the icon itself you can choose the style used by safari to render the icon itself. The choices are "Big, transparent", "Small, glass". "big glass"
 
 <img src="https://github.com/shy-neon/favtool/blob/main/images/styles.png" width="474"  />
 
 1. "Big, transparent" indicated for solid or gradient background icons
-2. "Small, glass" applyes for transparent background icons, if applied on a solid background image, a padding around the immagine will appear.
-3. "Big, glass" usually applyes for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari an therefor is in this list.
+2. "Small, glass" applyes for transparent background icons, if applied on a solid background image, a padding around the image will appear.
+3. "Big, glass" usually applies for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari an therefore is in this list.
 
-Other stile are apparently used by safari, but strangely they seem to have no effect on the icon, the site using those stile will display the generic "select" prompt.
+Other styles are apparently used by safari, but strangely they seem to have no effect on the icon, the site using those styles will display the generic "select" prompt.
 
 ### Restore default icons
 
-This option allows you to delete any change you've done on icons. To do this, go to *Edit* > *Reset default icons* or use the keyboard shortcut ⌘⌥D . The whole `Touch Icons Cache` folder will be deleted, and recreated as soon as Safari is opened. Safari will reload all the icons from scratch. This option *might* fix missing icons. The Touch Icons folder wil be automatically unlocked.
+This option allows you to delete any change you've made to icons. To do this, go to *Edit* > *Reset default icons* or use the keyboard shortcut ⌘⌥D . The whole `Touch Icons Cache` folder will be deleted, and recreated as soon as Safari is opened. Safari will reload all the icons from scratch. This option *might* fix missing icons. The Touch Icons folder will be automatically unlocked.
 
 ### Where to find icons suggestions
 
-You can download icons for free in many sites, these are the one I often use:
+You can download icons for free from many sites, these are the ones I often use:
 
 - [https://icons8.com](https://icons8.com/) - A very big library with many styles
 - [https://macosicons.com](https://macosicons.com/) - Many styles with more of an app /program focus
