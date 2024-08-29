@@ -1,7 +1,7 @@
 
 
 Due to lack of donations newer versions of favtool will be now distributed via patreon. 
-This trully was a suffered decision, but i cannot afford to maintain this project active as I wantend. I don't know if this will be forever but I have to try, to save this prohect from death. 
+This trully was a suffered decision, but i cannot afford to maintain this project active as I wantend. I don't know if this will be forever but I have to try, to save this project from death. 
 
 link to patreon: https://www.patreon.com/Favtool/shop/favtool-4-5-patreon-edition-320523?source=storefront
 
