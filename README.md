@@ -19,6 +19,6 @@ No, it's a one time purchase, that will allow you to download all the future rel
 ### whats about the source?
 the source can be downloaded cloning the repo. You wil get the source of the latest release (the one on patreon), if you want you can build it yourself and use favtool for free.
 
-### will be able to contribute?
+### will I be able to contribute?
 Yes, embedded in the paid program there is the link to my personal telegram account, you can reach me for suggestions, marging for the private repo and so on.
 
