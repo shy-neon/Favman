@@ -1,7 +1,7 @@
 
 # Favtool
 
-Welcome to the repository of Favtool, on this repository you can find the source code of favtool, the last build avaible in "releases" is the 4.3, since 4.5 favtool is distributed only via patreon. If you decide to stick with the 4.3 you may wanto to read the <a href="https://github.com/shy-neon/favtool/blob/main/guide.md">guide</a>.
+Welcome to the repository of Favtool, on this repository you can find the source code of favtool, the last build avaible in "releases" is the 4.3, **since 4.5 favtool is distributed only via patreon**. If you decide to stick with the 4.3 you may wanto to read the <a href="https://github.com/shy-neon/favtool/blob/main/guide.md">guide</a>.
 
 link to DOWNLOAD: https://www.patreon.com/Favtool/shop/favtool-4-5-patreon-edition-320523?source=storefront
 
