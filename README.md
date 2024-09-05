@@ -1,4 +1,4 @@
-**Starting from 4.5 newer releases of favtool are only distributed via patreon** 
+**Starting from 4.5 newer releases of favman are only distributed via patreon** 
 
 DOWNLOAD: https://www.patreon.com/shyneon/shop/favman-4-5-patreon-edition-320523
 
