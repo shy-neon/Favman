@@ -3,7 +3,7 @@
 
 Welcome to the repository of favman, on this repository you can find the source code of favman, and a demo, **since 4.5 Favman is distributed only via patreon**. If you may wanto to read the <a href="https://github.com/shy-neon/favtool/blob/main/guide.md">guide</a>.
 
-link to DOWNLOAD: https://www.patreon.com/Favtool/shop/favtool-4-5-patreon-edition-320523?source=storefront](https://www.patreon.com/shyneon/shop/favman-4-5-patreon-edition-320523
+link to DOWNLOAD: https://www.patreon.com/shyneon/shop/favman-4-5-patreon-edition-320523
 
 # Possible FAQ
 
