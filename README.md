@@ -1,4 +1,4 @@
-**Starting from 4.5 newer releases of favman are only distributed via patreon** 
+### **Starting from 4.5 newer releases of favman are only distributed via patreon** 
 
 <img src="https://github.com/shy-neon/Favman/blob/main/images/main.gif">
 
